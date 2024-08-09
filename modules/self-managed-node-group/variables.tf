@@ -359,7 +359,7 @@ variable "context" {
 variable "desired_capacity_type" {
   description = "The unit of measurement for the value specified for desired_capacity"
   type        = string
-  default     = "units"
+  default     = "vcpu"
 }
 
 variable "capacity_rebalance" {
