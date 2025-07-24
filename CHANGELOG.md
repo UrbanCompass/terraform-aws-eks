@@ -2,6 +2,59 @@
 
 All notable changes to this project will be documented in this file.
 
+## [21.0.1](https://github.com/terraform-aws-modules/terraform-aws-eks/compare/v21.0.0...v21.0.1) (2025-07-24)
+
+
+### Bug Fixes
+
+* Correct logic to try to use module created IAM role before falli… ([#3433](https://github.com/terraform-aws-modules/terraform-aws-eks/issues/3433)) ([97d4ebb](https://github.com/terraform-aws-modules/terraform-aws-eks/commit/97d4ebbe68a23aa431a534fd7ed56a76f9b37801))
+
+## [21.0.0](https://github.com/terraform-aws-modules/terraform-aws-eks/compare/v20.37.2...v21.0.0) (2025-07-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* Upgrade min AWS provider and Terraform versions to `6.0` and `1.5.7` respectively (#3412)
+
+### Features
+
+* Upgrade min AWS provider and Terraform versions to `6.0` and `1.5.7` respectively ([#3412](https://github.com/terraform-aws-modules/terraform-aws-eks/issues/3412)) ([416515a](https://github.com/terraform-aws-modules/terraform-aws-eks/commit/416515a0da1ca96c539977d6460e2bc02f10b4d4))
+
+## [20.37.2](https://github.com/terraform-aws-modules/terraform-aws-eks/compare/v20.37.1...v20.37.2) (2025-07-17)
+
+
+### Bug Fixes
+
+* Allow for both `amazonaws.com.cn` and `amazonaws.com` conditions in PassRole as required for AWS CN ([#3422](https://github.com/terraform-aws-modules/terraform-aws-eks/issues/3422)) ([83b68fd](https://github.com/terraform-aws-modules/terraform-aws-eks/commit/83b68fda2b0ea818fc980ab847dd8255a2d18334))
+
+## [20.37.1](https://github.com/terraform-aws-modules/terraform-aws-eks/compare/v20.37.0...v20.37.1) (2025-06-18)
+
+
+### Bug Fixes
+
+* Restrict AWS provider max version due to v6 provider breaking changes ([#3384](https://github.com/terraform-aws-modules/terraform-aws-eks/issues/3384)) ([681a868](https://github.com/terraform-aws-modules/terraform-aws-eks/commit/681a868d624878474fd9f92d1b04d3fec0120db7))
+
+## [20.37.0](https://github.com/terraform-aws-modules/terraform-aws-eks/compare/v20.36.1...v20.37.0) (2025-06-09)
+
+
+### Features
+
+* Add AL2023 ARM64 NVIDIA variants ([#3369](https://github.com/terraform-aws-modules/terraform-aws-eks/issues/3369)) ([715d42b](https://github.com/terraform-aws-modules/terraform-aws-eks/commit/715d42bf146791cad911b0b6979c5ce67bc0d2f6))
+
+## [20.36.1](https://github.com/terraform-aws-modules/terraform-aws-eks/compare/v20.36.0...v20.36.1) (2025-06-09)
+
+
+### Bug Fixes
+
+* Ensure `additional_cluster_dns_ips` is passed through from root module ([#3376](https://github.com/terraform-aws-modules/terraform-aws-eks/issues/3376)) ([7a83b1b](https://github.com/terraform-aws-modules/terraform-aws-eks/commit/7a83b1b3db9c7475fe6ec46d1c300c0a18f19b2a))
+
+## [20.36.0](https://github.com/terraform-aws-modules/terraform-aws-eks/compare/v20.35.0...v20.36.0) (2025-04-18)
+
+
+### Features
+
+* Add support for cluster `force_update_version` ([#3345](https://github.com/terraform-aws-modules/terraform-aws-eks/issues/3345)) ([207d73f](https://github.com/terraform-aws-modules/terraform-aws-eks/commit/207d73fbaa5eebe6e98b94e95b83fd0a5a13c307))
+
 ## [20.35.0](https://github.com/terraform-aws-modules/terraform-aws-eks/compare/v20.34.0...v20.35.0) (2025-03-29)
 
 
